@@ -1,0 +1,78 @@
+
+@font-face{
+    font-family: 'Dogica';
+    src: url('dogicapixel.ttf') format('truetype');
+}
+*{ /*Sempre colocar isso antes de começar a estilizar um site*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: #D6A1F5;
+    padding: 20px;
+    font-family: 'Dogica';
+    line-height: 50px;
+    
+}
+header h2{
+    font-size: 20px;
+}
+.menu{
+    
+    text-align: center;
+    margin: 0px;
+    word-spacing: 30px;
+    background-color: white;
+    padding: 10px;
+}
+.itens-menu{
+    text-decoration: none;
+    font-family: 'Dogica';
+    color: black;
+
+}
+.itens-menu:hover{
+    color:#F7A9DD;
+}
+#projetos{
+    background-color: #98FB98;
+    text-align: center;
+    
+    word-spacing: 30px;
+    padding: 100px;
+}
+
+#sobre{
+    background-color: #BDCAF7;
+    padding: 100px;
+    display: flex;
+}
+.texto-sobre{
+    margin: 50px;
+    font-family: 'Dogica';
+}
+#contato{
+    background-color: #F7A9DD;
+    padding: 100px;
+
+}
+#sobre img{
+    box-shadow: 10px 10px rgb(248, 203, 134);
+}
+#projetos img{
+    box-shadow: 10px 10px rgb(39, 0, 65);
+}
+#projetos img:hover{
+    box-shadow:  
+    10px 10px  rgb(247, 169, 221),
+    20px 20px rgb(206, 0, 178);
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition-duration: 0.5s;
+}
+
+#sobre .foto img{
+    height: 330px;
+}

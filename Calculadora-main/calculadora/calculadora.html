@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+   
+   
+    <title>Calculadora</title>
+</head>
+<body>
+    <h6>calculadora</h6>
+    <h6>feita por Renata Justiniano Novais</h6>
+    
+    <div id="fundo" >
+        <div id="calculadora">
+        
+        <p id="resultado" class="resultado"></p>
+
+        <table>
+            <tr>
+                <td><button id="botao" onclick="insert('1')">1</button></td>
+                <td><button id="botao" onclick="insert('2')">2</button></td>
+                <td><button id="botao" onclick="insert('3')">3</button></td>
+                <td><button id="botao" onclick="clean()">C</button></td>
+                <br>
+                <td rowspan="5"><button id="botao" onclick="back()" style="height: 400px; margin: 4px; width: 100px;">&larr;</button></td>
+                
+            </tr>
+
+            <tr>
+                <td><button id="botao" onclick="insert('4')">4</button></td>
+                <td><button id="botao" onclick="insert('5')">5</button></td>
+                <td><button id="botao" onclick="insert('6')">6</button></td>
+                <td><button id="botao" onclick="insert('+')">+</button></td>
+                
+            </tr>
+
+            <tr>
+                <td><button id="botao" onclick="insert('7')">7</button></td>
+                <td><button id="botao" onclick="insert('8')">8</button></td>
+                <td><button id="botao" onclick="insert('9')">9</button></td>
+                <td><button id="botao" onclick="insert('-')">-</button></td>
+               
+            </tr>
+
+            <tr>
+                <td colspan="2" ><button id="botao" style="height: 70px; width: 170px;" onclick="insert('0')" >0</button></td>
+                <td><button id="botao" onclick="insert('.')">.</button></td>
+                <td ><button id="botao" onclick="insert('*')">*</button></td>
+                
+                
+            </tr>
+
+            <tr>
+                <td colspan="3" ><button id="botao" onclick="calcular()" style="height: 70px; width: 240px">=</button></td>
+                <td><button id="botao" onclick="insert('/')">/</button></td>
+            </tr>
+
+            
+
+            
+
+        </table>
+    </div>
+    </div>
+
+
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

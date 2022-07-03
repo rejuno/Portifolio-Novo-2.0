@@ -1,0 +1,47 @@
+body{
+   background-image: url("fundo.png"), linear-gradient(to right,#3499a7,#73e6f5,#38E2FA,#2CB5C7);
+   background-size: cover;
+   
+}
+#fundo{
+    background-color: rgb(48, 77, 90);
+    position: absolute;
+    top: 25%;
+    right: 36%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 15px 16px #3d5c6b;
+   
+}
+#botao{
+    margin: 3px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    background-color: rgb(204, 204, 204);
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+#botao:hover{
+    background-color: #3499a7;
+    color:aliceblue;
+    box-shadow: 5px 5px #3d5c6b;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#resultado{
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: white;
+    width: 380px;
+    height: 50px;
+    margin: 10px;
+    text-align: right;
+    padding:20px;
+}
+
