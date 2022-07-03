@@ -1,0 +1,120 @@
+/*utilizou a API - https://www.themoviedb.org/?language=pt-BR*/
+
+:root{ /*tem como declarar variaveis no CSS*/
+    --vermelho: #e50914;
+    --preta: #141414;
+
+}
+
+*{ /*Sempre colocar isso antes de começar a estilizar um site*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ELEMENTOS BASE*/
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif; 
+    color: white; 
+}
+
+header .container{
+    /*coloca os elemento na liha horizontal na esquerda*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    
+
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+
+}
+header nav a:hover{
+    color:#fff;
+}
+
+/*FILME PRINCIPAL*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),url('./img/community-png.jpg');
+
+    height: 650px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;/*faz com que comece pela esquerda*/
+
+}
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+.titulo{
+    margin-top: -1%;
+    font-size: 90px;
+    margin-left: 40px;
+    
+    
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 40px;
+    
+    cursor: pointer;
+    transition: .3s ease all; 
+}
+.botao:hover{
+    color: black;
+    background-color: white;
+}
+.descricao{
+    margin-left: 40px;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 20px;
+}
+.filme-principal .container{/*deixa um tamanho para o texto, assim evitando que ele chegue para outro lado*/
+    width: 60%; 
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.carrosel-filmes{
+    margin-top: 5px;
+}
+/* WRAPPER  ENVELOPAR
+    ELE É TIPO UM CONTAINER 
+    pesquisar sobre o assunto 
+        estudar sobre jQuery
+        aperfeiçoar conhecimento sobre o bootstrap 
+        aprender mais osbre display flex 
+
+*/

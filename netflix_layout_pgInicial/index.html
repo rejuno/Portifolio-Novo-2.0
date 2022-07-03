@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+   
+    <!--media query Responsividade -->
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo"><img src="./img/logo-netflix.png" alt="netflix" height="80px"></h2>
+            <nav> <!--usado para fazer o menu de navegacao-->
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main> <!--faz referencia de que esse é o conteudo principal para o site-->
+        <div class="filme-principal">
+            <!--wrapper é uma classe que serve para que quando o site é acessado em outra plataforma ou é diminuido ele fique responsivo-->
+            <div class="container">
+                <h3 class="titulo">COMMUNITY</h3>
+                <p class="descricao">Sempre foi dito que universidades comunitárias são um meio escolar para perdedores, um workshop de auto-estima para donas-de-casa recém divorciadas e um lugar onde pessoas velhas vão para manter sua mente ocupada enquanto esperam pela morte. Bem, no Greendale Community College… Isso tudo é verdade! “Community” é focada em um grupo de desviados, onde o líder é um advogado que teve o grau revogado. Eles formam um grupo de estudo, onde acabam aprendendo mais sobre si mesmo, do que sobre a matéria cursada.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"><i class="fa-solid fa-play"></i>  ASSISTIR AGORA</button>
+                    <button role="button" class="botao"><i class="fa-solid fa-circle-info"></i> MAIS INFORMAÇÕES</button> 
+                </div>
+            </div>
+
+               
+        </div>
+    </main>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="img/img1-buzz.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img2-doutor.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img3-lua.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img4-umbrella.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img5-msmarvel.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img6-simpsons.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img7-good.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img8-red.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img9-grey.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/img10-spy.jpg" alt="" srcset="">
+                </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/34c97fb15b.js" crossorigin="anonymous"></script>
+    
+    <!--owl script-->
+     <script src="js/owl/jquery.min.js"></script>
+     <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>

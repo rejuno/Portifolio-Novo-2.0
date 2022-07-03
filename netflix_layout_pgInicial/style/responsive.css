@@ -1,0 +1,19 @@
+/*media querys*/
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;/*joga o menu pra baixo, como se os elementos estivessem em uma coluna, colocando um em cima e outro embaixo.*/
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
